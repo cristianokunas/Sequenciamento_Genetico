@@ -1,0 +1,2 @@
+# Sequenciamento_Genetico
+Este trabalho apresenta  uma avaliação de desempenho da paralelização do sequenciamento de DNA em ambientes com aceleradores. Para tanto foi utilizado  uma implementação paralela que realiza o sequenciamento de DNA com os modelos de programação CUDA. A solução utilizada baseia-se em uma versão modificada do algoritmo Smith-Waterman sendo capaz de realizar buscas com sequenciamento de 4 caracteres.
