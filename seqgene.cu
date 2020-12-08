@@ -199,6 +199,20 @@ int main(int argc, char *argv[0])
     compararEncontrados<<<numBlocos, numThreads>>>(DNA, combinacoesDNA, inicioProcesso, maisEncontrados, countMaisEncontrados, tamanhoDNA, totalProcessos);
     cudaDeviceSynchronize();
 
+    printf("\n Sequência | Encontrado no DNA1 |\n");
+    for(i = 0; i < 24; i++)
+    {
+        printf("\n %-9s | %-18d |", combinacoesDNAtxt[i], countCombinacoesDNA[i]);
+    }
+
+    printf("\n\n\nAs 5 sequências mais encontradas no DNA1 presentes no DNA2\n");
+    printf("\n Sequência | DNA1    | DNA2\n");
+    for (i = 0; i < 5; i++)
+    {
+        printf("\n %-9s | %-7d | %d", combinacoesDNAtxt[maisEncontrados[i]], countCombinacoesDNA[maisEncontrados[i]], countMaisEncontrados[i]);
+    } 
+    printf("\n\n");
+
     cudaFree(DNA);
     cudaFree(countCombinacoesDNA);
     cudaFree(combinacoesDNA);
@@ -259,4 +273,3 @@ int tamanhoArquivo(const char *nomeArquivo)
     fclose(file);
     return size;
 }
-
