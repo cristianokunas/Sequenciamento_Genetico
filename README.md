@@ -3,7 +3,7 @@
 
 <p>
 <a href="https://sol.sbc.org.br/index.php/eradrs/article/view/10744">
-  <img alt="Resumo Espandido" src="https://img.shields.io/badge/Resumo%20Espandido-XX%20ERAD%2C%202020-76B900?logo=read-the-docs&logoColor=white"/>
+  <img alt="Resumo Espandido" src="https://img.shields.io/badge/Resumo%20Espandido-XX%20ERAD%2C%202020-blueviolet?logo=read-the-docs&logoColor=white"/>
 </a><br>
   
 <img src="https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white"/>
@@ -13,7 +13,11 @@
 <img src="https://img.shields.io/badge/CUDA-000000?logo=nvidia&logoColor=white"/>
 
 <a href="https://www.nvidia.com/pt-br/geforce/graphics-cards/rtx-2060/" alt="NVIDIA">
-  <img src="https://img.shields.io/badge/NVIDIA-GTX%20RTx2060-76B900?logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NVIDIA-GTX%20RTx2060-brightgreen?logo=nvidia&logoColor=white"/>
+</a>
+
+<a href="https://github.com/cristianokunas/Sequenciamento_Genetico/blob/main/LICENSE" target="_blank">
+  <img alt="License: MIT" src="https://img.shields.io/badge/Licence-MIT-green" />
 </a>
 
 </p>
@@ -42,3 +46,14 @@ Os resultados são salvos em:
 ```
 src/resultados.txt
 ```
+
+## Author
+
+👤 **Cristiano Alex Künas**
+
+* Github: [@cristianokunas](https://github.com/cristianokunas)
+* LinkedIn: [@cristianokunas](https://linkedin.com/in/cristianokunas)
+
+## 📝 License
+
+Copyright © 2020 [Cristiano Alex Künas](https://github.com/cristianokunas).
