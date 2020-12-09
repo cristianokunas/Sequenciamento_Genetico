@@ -14,7 +14,8 @@ echo +------------------------------------------+
 echo +------- "Iniciando teste CUDA" -----------+
 echo +------------------------------------------+
 
-
+# Configured for NVIDIA GTX RTx 2060
+# 6GB of Memory and 1920 CUDA Cores
 for i in 1 2 3 4 5
 do
     echo
